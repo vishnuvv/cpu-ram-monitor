@@ -27,7 +27,7 @@ $sudo service redis-server start
 ```
 To download and install dependent node modules in contest directory
 ```
-$cd contest
+$cd cpu-ram-monitor
 $sudo npm install
 ```
 Start Services:
