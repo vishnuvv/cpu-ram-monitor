@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from html-templates.multipurposethemes.com/bootstrap-4/admin/bonitoadmin-dark/index3.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jan 2018 12:39:36 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Contest</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+  <link rel='stylesheet' href='ui/css/styles.css' type='text/css' />
+     
+  </head>
+
+<body>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>-->
+	 <script data-require="moment.js@2.10.2" data-semver="2.10.2" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+		//require(['ui/lib/socket.io'], function(socketClient){
+			socket = io();
+		//})
+	</script>
+	<script data-main="main" src="ui/lib/require.js"></script>
+	
+	 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>-->
+	<!--<script src="ui/lib/socket.io.js"></script>-->
+	
+	<script src="ui/js/script.js"></script>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-4 col-md-4">
+				<h3>Cpu</h3>
+				<div class="cpu_bar chart">
+					<canvas></canvas>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<h3>Memory</h3>
+				<div class="mem_bar chart">
+					<canvas></canvas>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<h3>Cpu/Memory History</h3>
+				<div class=" cpu_mem_line chart">
+					<canvas></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
