@@ -4,6 +4,15 @@
 
 ![alt text](https://github.com/vishnuvv/cpu-ram-monitor/blob/master/contest_cpu_ram.gif)
 
+Consists of bar and line charts where bar chart represent the live CPU/Memory and
+line charts displays last 5 minutes data
+
+node js server
+
+redis timeseries database
+
+chart js chart library
+
 Once you unzip the repo execute the below commands to 
 install prerequisites like node.js and redis and run the app
 ```
