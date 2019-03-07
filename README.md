@@ -2,6 +2,8 @@
 
 **Instructions to install and run CPU and RAM Monitor App**
 
+![alt text](https://github.com/vishnuvv/cpu-ram-monitor/blob/master/contest_cpu_ram.gif)
+
 Once you unzip the repo execute the below commands to 
 install prerequisites like node.js and redis and run the app
 ```
