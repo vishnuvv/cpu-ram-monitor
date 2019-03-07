@@ -1,4 +1,7 @@
+**Realtime cpu and ram monitor with live charts**
+
 **Instructions to install and run CPU and RAM Monitor App**
+
 Once you unzip the repo execute the below commands to 
 install prerequisites like node.js and redis and run the app
 ```
