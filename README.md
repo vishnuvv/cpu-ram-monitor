@@ -1,6 +1,6 @@
 **Realtime cpu and ram monitor with live charts**
 
-**Instructions to install and run CPU and RAM Monitor App**
+**Instructions to install and run CPU and RAM Monitor App on ubuntu machine**
 
 ![alt text](https://github.com/vishnuvv/cpu-ram-monitor/blob/master/contest_cpu_ram.gif)
 
