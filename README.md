@@ -1,8 +1,9 @@
+
 **Realtime cpu and ram monitor with live charts**
 
 **Instructions to install and run CPU and RAM Monitor App on ubuntu machine**
 
-![alt text](https://github.com/vishnuvv/cpu-ram-monitor/blob/master/contest_cpu_ram.gif)
+![WhatsApp Image 2021-09-03 at 8 55 44 PM](https://user-images.githubusercontent.com/6205304/132040726-6445db9f-3ffa-406c-8c79-e16c4389ccae.jpeg)
 
 Consists of bar and line charts where bar chart represent the live CPU/Memory and
 line charts displays last 5 minutes data
