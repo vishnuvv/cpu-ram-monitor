@@ -29,7 +29,7 @@ async function getSystemResource({history}){
      			resolve(result);
      		})
      	}) 
-     } else {
+     } else {    
      	 var memPromise = osu.mem.used().then(function(data){
      		return Number.parseFloat(Number.parseFloat(data['usedMemMb']/data['totalMemMb'] * 100).toFixed(2));
 	     })

@@ -21,7 +21,7 @@ app.use(routerModule.basePath,routerModule.routerInst);
 app.use(express.static(__dirname));
 app.get('/', function(req,res) {
   res.sendFile('index.html');
-});
+});   
 const io = require('socket.io')(server);
 io.on('connection', function(socket){
 	console.log('user connected');

@@ -1,5 +1,5 @@
 
-**Realtime cpu and ram monitor with live charts**
+**Realtime   cpu and ram monitor with live charts**
 
 **Instructions to install and run CPU and RAM Monitor App on ubuntu machine**
 

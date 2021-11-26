@@ -1,6 +1,6 @@
 define(['jquery','charts'], function($, Chart){
 	console.log('linechart file loaded');
-	return {
+	return {   
 		render: function({container, data}){
 			console.log('render called');
 			var lineChart = new Chart($('.'+container).find('canvas'), {
