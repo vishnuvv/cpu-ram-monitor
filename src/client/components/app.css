@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  color: #4d4d4d;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  color: #51326f;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 23px;
+  margin: 10px 0;
+}
+
+section {
+  position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+.appBody {
+  max-width: 800px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 20px 20px 20px;
+}
+
+.header {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  margin-bottom: 15px;
+  background-color: #f7f8f9;
+}
+
+.actionBtns {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -32px;
+}
+
+.notifications {
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 12px;
+}
