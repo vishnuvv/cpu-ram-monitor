@@ -1,0 +1,33 @@
+.line {
+  fill: none;
+  stroke: #51326f;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 1.5;
+  shape-rendering: geometricPrecision;
+}
+
+.axis {
+}
+
+.xAxis {
+}
+
+.yAxis {
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.axis path {
+  fill: none;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
